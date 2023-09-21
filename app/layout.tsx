@@ -1,8 +1,6 @@
-import '@radix-ui/themes/styles.css';
 import './layout.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { Theme } from '@radix-ui/themes';
 
 const inter = Inter({
 	subsets: ['latin'],
@@ -24,7 +22,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={inter.className}>
 			<body>
-				<Theme>{children}</Theme>
+				<main>{children}</main>
 			</body>
 		</html>
 	);
