@@ -18,7 +18,8 @@
     "react": "18.2.0",
     "react-aria": "^3.28.0",
     "react-aria-components": "^1.0.0-beta.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.46.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.2",
