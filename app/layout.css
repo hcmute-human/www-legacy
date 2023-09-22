@@ -16,6 +16,20 @@
 		min-height: 100vh;
 	}
 
+	*[data-focused] {
+		outline: none;
+	}
+
+	*[data-focus-visible] {
+		outline: 2px solid theme('colors.primary.300');
+		outline-offset: 2px;
+	}
+
+	*[data-pressed] {
+		outline: 2px solid theme('colors.primary.300');
+		outline-offset: 1px;
+	}
+
 	p {
 		font-size: theme('fontSize.base');
 		margin-bottom: 1rem;
